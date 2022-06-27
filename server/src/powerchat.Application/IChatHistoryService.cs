@@ -8,5 +8,7 @@ namespace powerchat.Application
     public interface IChatHistoryService
     {
         Task<IEnumerable<GetChatHistoryResult>> GetChatHistoryAsync(GranularityLevel level);
+
+        IEnumerable<GetGranularityLevelResult> GetGranularityLevels();
     }
 }

@@ -5,6 +5,7 @@ namespace powerchat.Api
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using Microsoft.OpenApi.Models;
     using Application;
     using Application.ChatService;
     using Infrastructure;
@@ -22,6 +23,20 @@ namespace powerchat.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { 
+                    Title = "ChatHistory API", 
+                    Version = "v1",
+                    Description = "API for getting chat-history",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Lawrence",
+                        Email = "ifeanyilawrence.eze@gmail.com"
+                    },
+                });
+            });
 
             services.AddTransient<IChatHistoryRepository, ChatHistoryRepository>();
             services.AddTransient<IChatHistoryGranularityFactory, ChatHistoryGranularityFactory>();
@@ -35,6 +50,13 @@ namespace powerchat.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "ChatHistory API v1");
+            });
 
             app.UseHttpsRedirection();
 
