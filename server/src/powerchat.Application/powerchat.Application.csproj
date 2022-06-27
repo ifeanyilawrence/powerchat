@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\powerchat.Infrastructure\powerchat.Infrastructure.csproj" />
+      <ProjectReference Include="..\powerchat.Shared\powerchat.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

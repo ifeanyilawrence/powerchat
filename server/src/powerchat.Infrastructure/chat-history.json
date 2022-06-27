@@ -1,0 +1,187 @@
+[
+  {
+    "id": "dff878e7-bf4a-427b-80a3-7eaed33b3b42",
+    "time": "6/27/2022 5:00:00 PM",
+    "user": {
+      "id": "978bf3a6-c1d9-48e3-a665-5af244449f55",
+      "username": "Bob"
+    },
+    "eventTypeId": 0,
+    "comment": "",
+    "eventforuser": null
+  },
+  {
+    "id": "4e20fa08-f236-46ae-a365-23cdae1536e6",
+    "time": "6/27/2022 5:05:00 PM",
+    "user": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    },
+    "eventTypeId": 0,
+    "comment": "",
+    "eventforuser": null
+  },
+  {
+    "id": "b9890787-3c57-43ea-b38e-afc89520fad2",
+    "time": "6/27/2022 5:15:00 PM",
+    "user": {
+      "id": "978bf3a6-c1d9-48e3-a665-5af244449f55",
+      "username": "Bob"
+    },
+    "eventTypeId": 2,
+    "comment": "Hey, Kate - high five?",
+    "eventforuser": null
+  },
+  {
+    "id": "a4cc3d36-3ce7-4be9-9c11-9d24ef1acece",
+    "time": "6/27/2022 5:17:00 PM",
+    "user": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    },
+    "eventTypeId": 3,
+    "comment": "",
+    "eventforuser": {
+      "id": "978bf3a6-c1d9-48e3-a665-5af244449f55",
+      "username": "Bob"
+    }
+  },
+  {
+    "id": "04f46fd8-29e6-4b57-b0b5-9665effe9930",
+    "time": "6/27/2022 5:18:00 PM",
+    "user": {
+      "id": "978bf3a6-c1d9-48e3-a665-5af244449f55",
+      "username": "Bob"
+    },
+    "eventTypeId": 1,
+    "comment": "",
+    "eventforuser": null
+  },
+  {
+    "id": "e75b0e3b-73c5-435d-8327-afbb6fa0f4e8",
+    "time": "6/27/2022 5:20:00 PM",
+    "user": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    },
+    "eventTypeId": 2,
+    "comment": "Oh, typical",
+    "eventforuser": null
+  },
+  {
+    "id": "3a971d78-fac6-4f4f-b2ef-7092f808bbb7",
+    "time": "6/27/2022 5:21:00 PM",
+    "user": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    },
+    "eventTypeId": 1,
+    "comment": "",
+    "eventforuser": null
+  },
+  {
+    "id": "8da1c8c1-2055-40ff-8851-207d2fa6ac12",
+    "time": "6/27/2022 6:00:00 PM",
+    "user": {
+      "id": "978bf3a6-c1d9-48e3-a665-5af244449f55",
+      "username": "Bob"
+    },
+    "eventTypeId": 0,
+    "comment": "",
+    "eventforuser": null
+  },
+  {
+    "id": "c9e55fc2-e513-4671-8c6a-c74d87f24050",
+    "time": "6/27/2022 6:05:00 PM",
+    "user": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    },
+    "eventTypeId": 0,
+    "comment": "",
+    "eventforuser": null
+  },
+  {
+    "id": "225ce0a2-2090-485b-81b5-54e1e5993664",
+    "time": "6/27/2022 6:10:00 PM",
+    "user": {
+      "id": "adc32583-0d80-475d-9451-1b613560d461",
+      "username": "John"
+    },
+    "eventTypeId": 0,
+    "comment": "",
+    "eventforuser": null
+  },
+  {
+    "id": "a6e861b5-60de-49c6-a41e-cc21b38501b2",
+    "time": "6/27/2022 6:12:00 PM",
+    "user": {
+      "id": "adc32583-0d80-475d-9451-1b613560d461",
+      "username": "John"
+    },
+    "eventTypeId": 3,
+    "comment": "",
+    "eventforuser": {
+      "id": "978bf3a6-c1d9-48e3-a665-5af244449f55",
+      "username": "Bob"
+    }
+  },
+  {
+    "id": "eafb1692-b1bb-4be6-a93f-acdbbe8da6cf",
+    "time": "6/27/2022 6:14:00 PM",
+    "user": {
+      "id": "adc32583-0d80-475d-9451-1b613560d461",
+      "username": "John"
+    },
+    "eventTypeId": 3,
+    "comment": "",
+    "eventforuser": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    }
+  },
+  {
+    "id": "e796bd3a-b150-4106-8218-eb439378fb7f",
+    "time": "6/27/2022 6:16:00 PM",
+    "user": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    },
+    "eventTypeId": 2,
+    "comment": "Hello John",
+    "eventforuser": null
+  },
+  {
+    "id": "b9ee55ed-2899-4b5f-ba59-134d6a180bed",
+    "time": "6/27/2022 6:17:00 PM",
+    "user": {
+      "id": "be71b896-16ba-4230-be50-b4f3d33e6c50",
+      "username": "Kate"
+    },
+    "eventTypeId": 2,
+    "comment": "Bob, leaving soon?",
+    "eventforuser": null
+  },
+  {
+    "id": "ce84dd6b-5fde-49f2-9d32-3247f32425d0",
+    "time": "6/27/2022 6:18:00 PM",
+    "user": {
+      "id": "978bf3a6-c1d9-48e3-a665-5af244449f55",
+      "username": "Bob"
+    },
+    "eventTypeId": 2,
+    "comment": "No, Kate",
+    "eventforuser": null
+  },
+  {
+    "id": "ff2bdbc6-adac-4716-a869-a2be3747c955",
+    "time": "6/27/2022 6:20:00 PM",
+    "user": {
+      "id": "adc32583-0d80-475d-9451-1b613560d461",
+      "username": "John"
+    },
+    "eventTypeId": 2,
+    "comment": "Hi, Kate",
+    "eventforuser": null
+  }
+]

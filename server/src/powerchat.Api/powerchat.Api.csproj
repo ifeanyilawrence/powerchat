@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\powerchat.Application\powerchat.Application.csproj" />
+      <ProjectReference Include="..\powerchat.Infrastructure\powerchat.Infrastructure.csproj" />
+    </ItemGroup>
+
+
+</Project>
