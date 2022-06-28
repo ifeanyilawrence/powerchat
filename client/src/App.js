@@ -5,7 +5,7 @@ function App() {
   let [level, setLevel] = useState("");
   let [chatEvents, setChatEvents] = useState([]);
 
-  const url = 'https://localhost:5001/api/chat-history';
+  const url = '/api/chat-history';
 
   useEffect(() => {
     const response = fetch(`${url}/granularity`);

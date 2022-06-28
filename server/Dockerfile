@@ -5,9 +5,15 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["powerchat.Api/powerchat.Api.csproj", "powerchat.Api/"]
+COPY ["src/powerchat.Api/powerchat.Api.csproj", "powerchat.Api/"]
+COPY ["src/powerchat.Application/powerchat.Application.csproj", "powerchat.Application/"]
+COPY ["src/powerchat.Shared/powerchat.Shared.csproj", "powerchat.Shared/"]
+COPY ["src/powerchat.Infrastructure/powerchat.Infrastructure.csproj", "powerchat.Infrastructure/"]
 RUN dotnet restore "powerchat.Api/powerchat.Api.csproj"
-COPY . .
+RUN dotnet restore "powerchat.Application/powerchat.Application.csproj"
+RUN dotnet restore "powerchat.Shared/powerchat.Shared.csproj"
+RUN dotnet restore "powerchat.Infrastructure/powerchat.Infrastructure.csproj"
+COPY ./src .
 WORKDIR "/src/powerchat.Api"
 RUN dotnet build "powerchat.Api.csproj" -c Release -o /app/build
 
