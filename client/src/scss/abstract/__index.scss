@@ -1,0 +1,31 @@
+$color-primary: #E363FF;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-linear-start: #8A3FFC;
+$color-linear-end: #D90A9D;
+
+$color-bg: #430867;
+
+// FONT
+$default-font-size: 1.6rem;
+
+
+@mixin respond($breakpoint) {
+    @if $breakpoint ==phone {
+        @media only screen and (max-width: 37.5em) {
+            @content
+        }
+
+        ; //600px
+    }
+
+    @if $breakpoint ==tab-land {
+        @media only screen and (max-width: 75em) {
+            @content
+        }
+
+        ; //1200px
+    }
+}

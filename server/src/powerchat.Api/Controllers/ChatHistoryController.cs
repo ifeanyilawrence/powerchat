@@ -27,7 +27,7 @@ namespace powerchat.Api.Controllers
             return Ok(result);
         }
         
-        [HttpGet("/granularity")]
+        [HttpGet("granularity")]
         [ProducesResponseType(typeof(GetGranularityLevelResult), StatusCodes.Status200OK)]
         public IActionResult GetGranularity()
         {
