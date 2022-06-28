@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9d544c0b_002Da6dd_002D4ce4_002Dafdb_002Da5357e749e48/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetChatHistoryByLevel_ShouldReturnOk_WhenResultIsNotNull" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::0B561767-197A-421D-8729-D565C6678898::.NETCoreApp,Version=v3.1::powerchat.Api.Tests.ChatHistoryControllerTests.GetChatHistoryByLevel_ShouldReturnOk_WhenResultIsNotNull&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::0B561767-197A-421D-8729-D565C6678898::.NETCoreApp,Version=v3.1::powerchat.Api.Tests.ChatHistoryControllerTests.GetChatHistoryByLevel_ShouldReturnOk_WhenResultIsNull&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::0B561767-197A-421D-8729-D565C6678898::.NETCoreApp,Version=v3.1::powerchat.Api.Tests.ChatHistoryControllerTests.GetGranularity_ShouldReturnGranularityLevels&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::D768F8ED-557B-4BC8-B5B7-A92119EEA5B0::.NETCoreApp,Version=v3.1::powerchat.Application.Tests.ChatHistoryServiceTests.GetChatHistoryAsync_ShouldReturnNull_WhenNoHistoryIsFound&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::D768F8ED-557B-4BC8-B5B7-A92119EEA5B0::.NETCoreApp,Version=v3.1::powerchat.Application.Tests.ChatHistoryServiceTests.GetChatHistoryAsync_ShouldReturnChatHistory_WhenCHatHistoryExist&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::D768F8ED-557B-4BC8-B5B7-A92119EEA5B0::.NETCoreApp,Version=v3.1::powerchat.Application.Tests.ChatHistoryGranularityFactoryTests.GetChatHistoryService_ShouldReturnCorrectService_WhenGranularityLevelIsPassed&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
